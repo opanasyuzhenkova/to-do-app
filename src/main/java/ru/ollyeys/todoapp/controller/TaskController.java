@@ -106,7 +106,7 @@ public class TaskController extends HttpServlet {
 
 
         boolean isDone = Boolean.valueOf(request.getParameter("isDone"));
-        Task insertTask = new Task(title, username, description, LocalDate.now(), isDone);
+        Task insertTask = new Task(title, username, description, targetDate, isDone);
         taskDAO.insertTask(insertTask);
         response.sendRedirect("list");
     }
