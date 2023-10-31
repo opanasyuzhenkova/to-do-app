@@ -16,7 +16,7 @@ MVC веб-приложение, представляет собой To-Do List.
 
 + Сборщик проектов **Maven**;
 + Backend - **Java 20**;
-+ Хранение данных - **MySQL**; **JDBC API**;
++ Хранение данных - **MySQL**, **JDBC API**;
 + Контейнер сервлетов - **Apache Tomcat**;
 + Frontend - **JSP**, **HTML**, **CSS**, **BOOTSTRAP**
 
